@@ -19,7 +19,7 @@ public class BinSearch {
 
 		System.out.println("Input size of array to construct:");
 		int size = 0;
-		int value = -1;
+		int value = 0;
 
 		while (true) {
 			try {
