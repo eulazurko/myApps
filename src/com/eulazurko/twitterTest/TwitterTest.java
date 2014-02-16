@@ -1,4 +1,4 @@
-package com.lazurko.twitterTest;
+package com.eulazurko.twitterTest;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,7 +11,9 @@ public class TwitterTest {
 	/**
 	 * Взгляните на следующую картинку:
 	 * 
-	 * <img scr ="http://habr.habrastorage.org/post_images/113/84b/c48/11384bc48754ed1c66b7cd71bc575258.jpg">
+	 * <img scr =
+	 * "http://habr.habrastorage.org/post_images/113/84b/c48/11384bc48754ed1c66b7cd71bc575258.jpg"
+	 * >
 	 * 
 	 * На этой картинке у нас есть стены различной высоты. Картинка представлена
 	 * массивом целых чисел, где индекс — это точка на оси X, а значение каждого
@@ -21,7 +23,9 @@ public class TwitterTest {
 	 * Теперь представьте: идет дождь. Сколько воды соберется в «лужах» между
 	 * стенами?
 	 * 
-	 * <img scr ="http://habr.habrastorage.org/post_images/0ca/4c0/046/0ca4c0046711fd9f8a743163a12f3c31.jpg">
+	 * <img scr =
+	 * "http://habr.habrastorage.org/post_images/0ca/4c0/046/0ca4c0046711fd9f8a743163a12f3c31.jpg"
+	 * >
 	 * 
 	 * Мы считаем единицей объема воды квадратный блок 1х1. На картинке выше
 	 * все, что расположено слева от точки 1, выплескивается. Вода справа от
@@ -31,7 +35,7 @@ public class TwitterTest {
 	private static int[] m;
 
 	public static void main(String[] args) {
-	
+
 		BufferedReader bReader = new BufferedReader(new InputStreamReader(
 				System.in));
 
@@ -84,12 +88,14 @@ public class TwitterTest {
 			}
 
 			m = generate(size);
-			System.out.println("Array construction is complete:\n"+ Arrays.toString(m));
+			System.out.println("Array construction is complete:\n"
+					+ Arrays.toString(m));
 			System.out.println("\nResult: " + calculate(m));
 			break;
-			
+
 		case 2:
-			System.out.println("OK, input a value of elements of array via space (i.e. 1 2 3 4 5 ): \n");
+			System.out
+					.println("OK, input a value of elements of array separated by spaces (i.e. 1 2 3 4 5 ): \n");
 
 			while (true) {
 				try {
@@ -106,13 +112,12 @@ public class TwitterTest {
 
 				}
 			}
-			
-			System.out.println("Array construction is complete:\n"+ Arrays.toString(m));
+
+			System.out.println("Array construction is complete:\n"
+					+ Arrays.toString(m));
 			System.out.println("\nResult: " + calculate(m));
 			break;
 		}
-
-
 
 	}
 
@@ -159,18 +164,18 @@ public class TwitterTest {
 
 		return array;
 	}
-	
+
 	public static int[] strToArray(String str) throws IOException {
-		
+
 		int array[] = new int[str.split(" ").length];
 		int index = 0;
-		
-		for(String element : str.split(" ")) {
+
+		for (String element : str.split(" ")) {
 			array[index] = Integer.parseInt(element);
 			index++;
 		}
 		return array;
-		
+
 	}
 
 }
