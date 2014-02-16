@@ -9,6 +9,8 @@ import java.util.Random;
 public class TwitterTest {
 
 	/**
+	 * Ссылка на статью с заданием http://habrahabr.ru/post/200190/
+	 * 
 	 * Взгляните на следующую картинку:
 	 * 
 	 * <img scr ="http://habr.habrastorage.org/post_images/113/84b/c48/11384bc48754ed1c66b7cd71bc575258.jpg">
