@@ -93,8 +93,8 @@ public class TwitterTest {
 			break;
 
 		case 2:
-			System.out
-					.println("OK, input a value of elements of array separated by spaces (i.e. 1 2 3 4 5 ): \n");
+			System.out.println("OK, now please input a value of elements of array"
+					+ " separated by spaces (i.e. 1 2 3 4 5 ): \n");
 
 			while (true) {
 				try {
