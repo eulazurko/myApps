@@ -41,7 +41,7 @@ public class BinSearch {
 		}
 
 		fill(array = new int[size]);
-		System.out.println("Array constructing is complete:\n"
+		System.out.println("Array construction is complete:\n"
 				+ Arrays.toString(array) + "\n");
 
 		while (true) {

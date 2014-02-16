@@ -11,9 +11,7 @@ public class TwitterTest {
 	/**
 	 * Взгляните на следующую картинку:
 	 * 
-	 * <img scr =
-	 * "http://habr.habrastorage.org/post_images/113/84b/c48/11384bc48754ed1c66b7cd71bc575258.jpg"
-	 * >
+	 * <img scr ="http://habr.habrastorage.org/post_images/113/84b/c48/11384bc48754ed1c66b7cd71bc575258.jpg">
 	 * 
 	 * На этой картинке у нас есть стены различной высоты. Картинка представлена
 	 * массивом целых чисел, где индекс — это точка на оси X, а значение каждого
@@ -23,9 +21,7 @@ public class TwitterTest {
 	 * Теперь представьте: идет дождь. Сколько воды соберется в «лужах» между
 	 * стенами?
 	 * 
-	 * <img scr =
-	 * "http://habr.habrastorage.org/post_images/0ca/4c0/046/0ca4c0046711fd9f8a743163a12f3c31.jpg"
-	 * >
+	 * <img scr ="http://habr.habrastorage.org/post_images/0ca/4c0/046/0ca4c0046711fd9f8a743163a12f3c31.jpg">
 	 * 
 	 * Мы считаем единицей объема воды квадратный блок 1х1. На картинке выше
 	 * все, что расположено слева от точки 1, выплескивается. Вода справа от
